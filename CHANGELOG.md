@@ -67,6 +67,7 @@ BUG FIXES:
  * server: Fixed a bug where draining a node may fail to migrate its allocations [[GH-10411](https://github.com/hashicorp/nomad/issues/10411)]
  * server: Fixed a bug where jobs may not run if submitted with ParentID field set [[GH-10424](https://github.com/hashicorp/nomad/issues/10424)]
  * server: Fixed a panic that may arise on submission of jobs containing invalid service checks [[GH-10154](https://github.com/hashicorp/nomad/issues/10154)]
+ * ui: Fixed server list leader determination for IPv6 hosts. [[GH-10530](https://github.com/hashicorp/nomad/pull/10530)]
  * ui: Fixed the rendering of interstitial components shown after processing a dynamic application sizing recommendation. [[GH-10094](https://github.com/hashicorp/nomad/pull/10094)]
 
 ## 1.0.5 (Unreleased)
