@@ -87,7 +87,7 @@ require (
 	github.com/kr/pretty v0.3.0
 	github.com/kr/text v0.2.0
 	github.com/mattn/go-colorable v0.1.12
-	github.com/miekg/dns v1.1.41
+	github.com/miekg/dns v1.1.51
 	github.com/mitchellh/cli v1.1.2
 	github.com/mitchellh/colorstring v0.0.0-20150917214807-8631ce90f286
 	github.com/mitchellh/copystructure v1.2.0
@@ -117,9 +117,9 @@ require (
 	go.etcd.io/bbolt v1.3.5
 	go.uber.org/goleak v1.1.12
 	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd
-	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20220315194320-039c03cc5b86
+	golang.org/x/net v0.2.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.2.0
 	golang.org/x/time v0.0.0-20220224211638-0e9765cccd65
 	google.golang.org/grpc v1.45.0
 	google.golang.org/protobuf v1.27.1
@@ -260,10 +260,11 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
+	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.1.8-0.20211029000441-d6a9af8af023 // indirect
+	golang.org/x/term v0.2.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/tools v0.3.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/api v0.60.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
